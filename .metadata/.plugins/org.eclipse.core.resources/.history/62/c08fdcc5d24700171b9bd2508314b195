@@ -1,0 +1,19 @@
+
+public class EmployeeManagementSystem {
+	IObserver observerObj;
+	
+	public EmployeeManagementSystem(IObserver observerObj) {
+		this.observerObj = observerObj;
+	}
+
+	public void hireNewEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void registerObserver(IObserver observerObject) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

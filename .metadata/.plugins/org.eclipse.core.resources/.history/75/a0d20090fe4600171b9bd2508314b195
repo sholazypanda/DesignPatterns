@@ -1,0 +1,14 @@
+
+public class RemoteControl {
+	
+	public static void connectToDevice(){
+		
+	}
+	public void turnOn(){
+		
+	}
+	public void turnOff(){
+		
+	}
+	
+}

@@ -1,0 +1,10 @@
+package parts;
+
+public interface Engine {
+	private int hp;
+	
+	
+	public int startEngine(){
+		
+	}
+}

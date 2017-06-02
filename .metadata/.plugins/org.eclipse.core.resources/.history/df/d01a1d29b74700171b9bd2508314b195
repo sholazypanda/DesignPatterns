@@ -1,0 +1,14 @@
+package Process;
+
+public abstract class GeneralManufacturingProcess {
+	private String processName;
+	
+	public GeneralManufacturingProcess(String processName) {
+		
+		this.processName = processName;
+	}
+	protected abstract void assembly();
+	protected abstract void testing();
+	protected abstract void packaging();
+	protected abstract void storage();
+}

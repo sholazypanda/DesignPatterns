@@ -1,0 +1,19 @@
+import java.util.Date;
+
+public class CustomerTransaction {
+	public String getName(){
+		return "name";
+	}
+	public Date getDate(){
+		return new Date();
+	}
+	public String productBreakdown(){
+		return "list of products for reporting";
+	}
+	public void prepareInvoice(){
+		System.out.println("prepare invoice");
+	}
+	public void chargeCustomer(){
+		System.out.println("charge customer");
+	}
+}

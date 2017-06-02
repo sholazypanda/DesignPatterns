@@ -1,0 +1,14 @@
+package parts;
+
+public class Engine {
+	private int hp;
+	
+	public Engine(int hp) {
+	
+		this.hp = hp;
+	}
+
+	public int startEngine(){
+		
+	}
+}

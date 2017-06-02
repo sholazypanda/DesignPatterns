@@ -1,0 +1,10 @@
+
+public class CustomerReporting {
+	private Accounting transactionObject;
+
+	public CustomerReporting(Accounting transactionObject) {
+		super();
+		this.transactionObject = transactionObject;
+	}
+	
+}

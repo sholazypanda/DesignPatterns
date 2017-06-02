@@ -1,0 +1,11 @@
+
+public class PayrollDepartment implements IObserver{
+
+	@Override
+	public void callme(Employee emp,String msg) {
+		// TODO Auto-generated method stub
+	System.out.println("Payroll notified");	
+	System.out.println(emp.getName()+" "+msg);
+	}
+
+}

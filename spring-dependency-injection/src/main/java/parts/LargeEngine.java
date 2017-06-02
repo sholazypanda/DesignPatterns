@@ -1,0 +1,16 @@
+package parts;
+
+public class LargeEngine implements Engine{
+	int hp;
+	public LargeEngine(int hp) {
+		this.hp= hp;
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public int startEngine() {
+		// TODO Auto-generated method stub
+		return hp;
+	}
+
+}

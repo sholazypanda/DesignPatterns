@@ -1,0 +1,7 @@
+
+public class EmployeeDAO {
+	Employee emp1 = new Employee("mike", null, 35000, true);
+	Employee emp2 = new Employee("john", null, 45000, true);
+	Employee emp3 = new Employee("stever", null, 46000, true);
+	
+}

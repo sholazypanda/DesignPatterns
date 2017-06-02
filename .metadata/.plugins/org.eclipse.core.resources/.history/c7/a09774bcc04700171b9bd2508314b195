@@ -1,0 +1,50 @@
+
+import java.util.Date;
+import java.util.List;
+
+public class CustomerTransaction implements Accounting, Reporting {
+	
+	
+	private List<Products> products;
+	private Customer customer;
+	public CustomerTransaction(List<Products> products, Customer customer) {
+		
+		this.products = products;
+		this.customer = customer;
+	}
+	/* (non-Javadoc)
+	 * @see Reporting#getName()
+	 */
+	@Override
+	public String getName(){
+		return "name";
+	}
+	/* (non-Javadoc)
+	 * @see Reporting#getDate()
+	 */
+	@Override
+	public Date getDate(){
+		return new Date();
+	}
+	/* (non-Javadoc)
+	 * @see Reporting#productBreakdown()
+	 */
+	@Override
+	public String productBreakdown(){
+		return "list of products for reporting";
+	}
+	/* (non-Javadoc)
+	 * @see Accounting#prepareInvoice()
+	 */
+	@Override
+	public void prepareInvoice(){
+		System.out.println("prepare invoice");
+	}
+	/* (non-Javadoc)
+	 * @see Accounting#chargeCustomer()
+	 */
+	@Override
+	public void chargeCustomer(){
+		System.out.println("charge customer");
+	}
+}

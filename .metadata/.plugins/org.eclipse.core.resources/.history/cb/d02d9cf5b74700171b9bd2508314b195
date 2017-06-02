@@ -1,0 +1,14 @@
+package DeviceFact;
+
+import Devices.Smartphones;
+import Process.GeneralManufacturingProcess;
+
+public class DeviceFactory {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GeneralManufacturingProcess gmp = new Smartphones("Nokia");
+		
+	}
+
+}

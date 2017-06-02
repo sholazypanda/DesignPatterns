@@ -1,0 +1,9 @@
+
+public class AccountsReceivable {
+	private CustomerTransaction transactionObject;
+
+	public AccountsReceivable(CustomerTransaction transactionObject) {
+		super();
+		this.transactionObject = transactionObject;
+	}
+}

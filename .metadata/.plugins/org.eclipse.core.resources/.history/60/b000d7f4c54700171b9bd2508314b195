@@ -1,0 +1,6 @@
+package parts;
+
+public abstract class Engine {
+	private int hp;
+	public abstract int startEngine();
+}

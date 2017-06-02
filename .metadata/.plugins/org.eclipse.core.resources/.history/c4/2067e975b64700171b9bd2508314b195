@@ -1,0 +1,31 @@
+package Devices;
+
+import Process.GeneralManufacturingProcess;
+
+public class Smartphones extends GeneralManufacturingProcess {
+
+	@Override
+	public void assembly() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void testing() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void packaging() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void storage() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

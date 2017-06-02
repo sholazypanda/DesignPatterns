@@ -1,0 +1,18 @@
+
+public class Person {
+	String name;
+	
+
+	RemoteControl remoteControl;
+	public Person(String name) {
+		super();
+		this.name = name;
+	}
+	public static void main(String args[]){
+		Person person1 = new Person("Mary");
+		Projector projObj = new Projector("Horly");
+		SurroundSoundSystem surrObj = new SurroundSoundSystem("Bose");
+		TV tvObj = new TV("Sony");
+		
+	}
+}

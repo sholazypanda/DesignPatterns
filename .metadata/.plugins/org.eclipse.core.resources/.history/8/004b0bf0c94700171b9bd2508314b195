@@ -1,0 +1,11 @@
+package clients;
+
+import parts.LargeEngine;
+import vehicle.Vehicle;
+
+public class App {
+	public static void main(String args[]){
+		Vehicle vobj = new Vehicle(new LargeEngine(500));
+		
+	}
+}

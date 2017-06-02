@@ -1,0 +1,4 @@
+
+public class AccountsReceivable {
+	private CustomerTransaction transactionObject;
+}

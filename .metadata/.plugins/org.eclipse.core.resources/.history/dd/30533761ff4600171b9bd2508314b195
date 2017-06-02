@@ -1,0 +1,12 @@
+
+public class Person {
+	String name;
+	
+	public static void main(String args[]){
+		Person person1 = new Person();
+		Projector projObj = new Projector();
+		SurroundSoundSystem surrObj = new SurroundSoundSystem("Bose");
+		TV tvObj = new TV("Sony");
+		
+	}
+}

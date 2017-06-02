@@ -1,0 +1,11 @@
+package parts;
+
+public class LargeEngine extends Engine{
+
+	@Override
+	public int startEngine() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

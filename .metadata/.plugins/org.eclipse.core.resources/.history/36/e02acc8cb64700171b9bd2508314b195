@@ -1,0 +1,31 @@
+package Devices;
+
+import Process.GeneralManufacturingProcess;
+
+public class Smartphones extends GeneralManufacturingProcess {
+
+	@Override
+	public void assembly() {
+		// TODO Auto-generated method stub
+		System.out.println("assembled smartphone");
+	}
+
+	@Override
+	public void testing() {
+		// TODO Auto-generated method stub
+		System.out.println("tested smartphone");
+	}
+
+	@Override
+	public void packaging() {
+		// TODO Auto-generated method stub
+		System.out.println("packaged smartphone");
+	}
+
+	@Override
+	public void storage() {
+		// TODO Auto-generated method stub
+		System.out.println("storage smartphone");
+	}
+
+}

@@ -1,0 +1,16 @@
+package parts;
+
+public class SmallEngine extends Engine {
+	int hp;
+	public SmallEngine(int hp) {
+		super(hp);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int startEngine() {
+		// TODO Auto-generated method stub
+		return hp;
+	}
+
+}

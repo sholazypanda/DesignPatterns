@@ -1,0 +1,9 @@
+
+public class EmployeeManagementSystem {
+
+	public void hireNewEmployee(Employee bob) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

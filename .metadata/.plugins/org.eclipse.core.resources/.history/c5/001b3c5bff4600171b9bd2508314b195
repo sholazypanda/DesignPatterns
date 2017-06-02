@@ -1,0 +1,4 @@
+
+public class Projector extends RemoteControl{
+	String name;
+}

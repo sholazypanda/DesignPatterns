@@ -1,0 +1,36 @@
+package Devices;
+
+import Process.GeneralManufacturingProcess;
+
+public class Laptops extends GeneralManufacturingProcess {
+
+	public Laptops(String processName) {
+		super(processName);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void assembly() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void testing() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void packaging() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void storage() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

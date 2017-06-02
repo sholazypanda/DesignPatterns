@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeManagementSystem implements ISubject{
+	private List<IObserver> observerList;
+	private List<Employee> employees;
+	private EmployeeDAO empDao;
+
+	private Employee emp;
+	private String msg;
+	public EmployeeManagementSystem() {
+		
+		this.observerList = new ArrayList<IObserver>();
+		this.empDao = new EmployeeDAO();
+	}
+
+	public void hireNewEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		this.emp = emp;
+		employees.add(emp);
+		empDao.addEmployee(emp);
+		System.out.println(emp.toString()+"hired");
+		notifyObservers();
+	}
+
+	public void registerObserver(IObserver observerObject) {
+		// TODO Auto-generated method stub
+		observerList.add(observerObject);
+		//this.observerObj = observerObj;
+	}
+
+	public void modifyEmployeeName(int empId, String empName) {
+		// TODO Auto-generated method stub
+		System.out.println("emp modified");
+		notifyObservers();
+	}
+	public void notifyObservers(){
+		for(IObserver ob:observerList){
+			ob.callme();
+		}
+	}
+
+	@Override
+	public void removeObserver(IObserver o) {
+		// TODO Auto-generated method stub
+		observerList.remove(o);
+	}
+}

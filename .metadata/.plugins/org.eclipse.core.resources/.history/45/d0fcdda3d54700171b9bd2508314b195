@@ -1,0 +1,25 @@
+import java.util.List;
+
+public class EmployeeManagementSystem {
+	List<IObserver> observerList;
+	
+
+
+	public void hireNewEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		System.out.println("hired");
+		
+	}
+
+	public void registerObserver(IObserver observerObject) {
+		// TODO Auto-generated method stub
+		observerList.add(observerObject);
+		//this.observerObj = observerObj;
+	}
+
+	public void modifyEmployeeName(int empId, String empName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

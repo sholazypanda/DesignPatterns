@@ -1,0 +1,9 @@
+
+public class SurroundSoundSystem extends RemoteControl{
+	String name;
+	@Override
+	public String toString() {
+		return "SurroundSoundSystem [name=" + name + "]";
+	}
+	
+}

@@ -1,0 +1,15 @@
+
+public class TV extends RemoteControl{
+	String name;
+
+	public TV(String name) {
+		super();
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "TV [name=" + name + "]";
+	}
+	
+}

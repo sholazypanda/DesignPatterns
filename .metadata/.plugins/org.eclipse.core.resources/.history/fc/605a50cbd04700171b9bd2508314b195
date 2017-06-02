@@ -1,0 +1,9 @@
+import java.util.Date;
+
+public class Employee {
+
+	public Employee(String name, Date date, int i, boolean b) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

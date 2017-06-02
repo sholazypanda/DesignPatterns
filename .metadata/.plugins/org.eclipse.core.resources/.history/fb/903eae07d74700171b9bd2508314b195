@@ -1,0 +1,38 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeManagementSystem {
+	List<IObserver> observerList;
+	List<Employee> employees;
+	EmployeeDAO empDao;
+
+
+	public EmployeeManagementSystem() {
+		
+		this.observerList = new ArrayList<IObserver>();
+		this.empDao = new EmployeeDAO();
+	}
+
+	public void hireNewEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		System.out.println(emp.toString()+"hired");
+		notifyObservers();
+	}
+
+	public void registerObserver(IObserver observerObject) {
+		// TODO Auto-generated method stub
+		observerList.add(observerObject);
+		//this.observerObj = observerObj;
+	}
+
+	public void modifyEmployeeName(int empId, String empName) {
+		// TODO Auto-generated method stub
+		System.out.println("emp modified");
+		notifyObservers();
+	}
+	public void notifyObservers(){
+		for(IObserver ob:observerList){
+			ob.callme();
+		}
+	}
+}

@@ -1,0 +1,18 @@
+
+public abstract class RemoteControl {
+	
+	
+	private static RemoteControl instance;
+	
+	public static void connectToDevice(Object obj){
+		if(instance == null){
+			instance = new RemoteControl();
+		}
+		System.out.println("connected to "+obj.toString());
+	}
+	public abstract void turnOn();
+	public abstract void turnOff();
+		
+	
+	
+}
